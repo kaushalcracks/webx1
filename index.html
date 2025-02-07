@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Electronics Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Your One-Stop Shop for Electronics</h2>
+        <p>We offer the latest gadgets, computers, and home electronics!</p>
+    </section>
+
+    <section id="products">
+        <h2>Featured Products</h2>
+        <div class="product-gallery">
+            <!-- Smartphone Product -->
+            <div class="product-item">
+                <img src="images/smartphone.jpg" alt="Smartphone">
+                <h3>Smartphone</h3>
+                <p>Latest model with great features</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+
+            <!-- Laptop Product -->
+            <div class="product-item">
+                <img src="images/laptop.jpg" alt="Laptop">
+                <h3>Laptop</h3>
+                <p>High-performance laptop for work and gaming</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+
+            <!-- Headphones Product -->
+            <div class="product-item">
+                <img src="images/headphones.jpg" alt="Headphones">
+                <h3>Headphones</h3>
+                <p>Noise-canceling headphones</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+
+            <!-- Smartwatch Product -->
+            <div class="product-item">
+                <img src="images/smartwatch.jpg" alt="Smartwatch">
+                <h3>Smartwatch</h3>
+                <p>Stay connected and track your health</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Electronics Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
